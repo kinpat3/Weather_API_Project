@@ -4,7 +4,7 @@ function weatherChange(){
     let country = $("change-form input[name=Country").val()
 
 
-    $.get('https://api.openweathermap.org/data/2.5/weather?q=' + city + ',' + country + '&appid=0f05352f1e67e27c3ad0fc985a85a11e', function (data){
+    $.get('https://api.openweathermap.org/data/2.5/weather?q=' + city + ',' + country + '&appid=APIKEY', function (data){
 
 
         $("#Weather-Section").removeClass("vis-hidden")
